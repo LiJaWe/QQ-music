@@ -1,0 +1,21 @@
+@font-face {
+    font-family: "iconfont";
+    src: url('iconfont.eot?t=1555513669042');
+    /* IE9 */
+    src: url('iconfont.eot?t=1555513669042#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAAQIAAsAAAAACCwAAAO7AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEIGVgCDBgqEEINaATYCJAMMCwgABCAFhG0HPBsmB8ieBXZMm0hGnDhJ6fbF4oH/e3ff+LNoWcenwDweRmEUJl5CIQc0FnA//DZ7CDrWzVUtutGLMsChDSzy9Cr+Mgvw6yLq2wQIQI79P+6d/lHngc0HlMsckz91AcYBBbanjw2YFsgCwxbYOYTfCdhMAFpxxkM2FXVtgMMovQIQjoxeDXhIB8uhBLhSkTIxA3IBOTwukt0HcLZfHz6QEg4QyRMoA7eHch0U3YM/uFGH2wFTTQT47VkgTQMJmAMZhH2qbQd1Y3Mor48My88uYRCyttiKEVvHOLnyHy9CQCiBZV0kj+MR3IN1ni93o2Ct+TvXvQQa4Arg99QPKAsmipGPT2BgZIhvWJ8X4ty7eDdAa1Ade7y9gbpkH4J4s5NuRAvv2sT3pOujSvrQLUlKl0sliqQg6CUX6b1klXOll5ckgGPHLu1yx4ol4apVzjDlysX+/ULJ7iNivSiqTuWuWrVyZcjpNEFSXpRSVu5cbX5U6FJtG+bcuT1EaDssZC1fvmJFr9S2fPWacBe5oqRbIwhNGtv72RW7ViGSq/WaS7Vq1dqVKYjj1Su/wJhAP6vM99I9zM8Pu6eyTY4h8st8rvUdRr98QVF8mDko4p2Au8QKusOCcJ77Avd5crOQgaW7fWpzvT+QgecCqIrKPTF7Ua0LwIcnS0qT7ExcpSlSWfFsgjFmH881zPrHJRvUUZdH1xdJRRo8h/y1J9CSXx057XGQz/haL1nTkOqZ5c0PdYkb/8i50KlDNYrDK64enqRoi2c/zDCjYVX+A7V4ZknaVrnK42zAehxrSFw+bhtbXuJrX5Z0G2YC/B0YoAs7sR89gubd5ffA/ONXZ/jn/ce9MQDcnmvKUVg+T00GJP495ZesyF+hok/5zdN5f3/Cum+WCJAjm/zJ1fOivmMIfEuAy3yEyEMsJLjhaCaPh4K3NCjhCqE1TuX0jmAsFJI9AUzNA0AEOAQyfi4BKsADFCM/B7kw30EhIBS8KEPwgt5GxniVspSap3SEpodgtFYLrRl5L6e4hdJ3mNRsUGhTlRTLMUEiOSEpmqykLBTbxhCuU5/C8zRBs1YzUQHbUSaTlbCxVgOl5RPaed6Wk5hIpx0pQWs1g5dSLIoaj6JD0OhBYGhZWdBmbZ5X7PktKHodTNTYHMIPqxKFxWEaJyRLkFQCrZRZShGOpTmnk14KHo/mbjSWlRmhAi0UkxqzItjS2xlQtHgJ2mtEbHIkUjW6rCyhf4X5+NZBSxmQggxBEQw8TozaYtAjOE1Zuj2rHgAA') format('woff2'), url('iconfont.woff?t=1555513669042') format('woff'), url('iconfont.ttf?t=1555513669042') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+    url('iconfont.svg?t=1555513669042#iconfont') format('svg');
+    /* iOS 4.1- */
+}
+
+.iconfont {
+    font-family: "iconfont" !important;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-tianja:before {
+    content: "\e6ff";
+    font-size: 35px;
+}

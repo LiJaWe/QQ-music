@@ -1,0 +1,21 @@
+@font-face {
+    font-family: "iconfont";
+    src: url('iconfont.eot?t=1555512025163');
+    /* IE9 */
+    src: url('iconfont.eot?t=1555512025163#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAAQIAAsAAAAACCQAAAO5AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEIGVgCDHAqDYIM8ATYCJAMQCwoABCAFhG0HRRsrBxFVnDXIfhw4ZU2HHM/zJEmq1pdRbv+CJDgZ2JZNSNhmoWb66qkKPXepibExlw9sX5gI9cQOPbAqJC2nl+Zh5+f0lJqQm+YGCCCg+z+X05vPD6z17SyXMSftwYcBxgEFtietrYEWUILcMHYT5UGsBwJAgj18QTp06jEAHAygGwFAZkydPBY8ZQaroQi4TlMyloHsgggubBa+IYOd/PukCB3CAQEiBdioz6SOE9Am1zYviCqqYgS9BGU8JwBtEkAB+AJgAJlS6h4HGsZ8QSE5v2EIB8DBIQC5trkD84JUVZTuRc3hXx5AIIACRANQqAsACJVU9MQkmAYC5A6kQQDygsygIs46cwASgJ0AkgS97TgBAaIumMvVUdTXp3RsbOyguLjB//8P/PdvGVIOCITJcGzsCIlAREZwXmn5ln3AoWeu+hdeWItHX8rywYMxByTp3i9bdvx3mMHDvw7kyLADW/YpZgOl7pn795vJWw9aDLGdPGCfsn+rxeCDMeZLt8ZsUcbEZg6KTRoclzHwf/yAqQz/EqK5sgbHJQ6KHUHHjhPGq51HrLqaPYICKiTyuEze2+Yyy8xkouKyLBTlcoPTZ5yKipyLCpwKpFNg9DpATpGfa42UsYqT1pg7W725lWyRovsmvVTfWL80Y3wGf8HziIspk01LTScvX77hnsXmJM1V+fluqi3Wak4tfHbEdOvy5ZNNVOONO3eWepaie4sRCt4ucvkTwSjd877Tw/NRV7p/7rX08ND3vT8fXvZ+6CgPzdqEq0LLT9eL9pcPOR3r8KTryO19H3R9sn3kg76D3Rq+ZJ+uWHZtmM81zAEAqN/oPRoqdi6gl6mpmq8q86CX/nA7VBr06zzaADyr4fIlBuNTrgmSvJ0m85skrSX/07hMDZIgd2XAwmZLsVn98vKZDorweoohkQB/MQUY+xxDYzaDmHo5sxgEOuyA4lxRRvqCSBYKGlw0SHysJ8tMiDwyLQBvrwIQht5AoO8lUIbeUUZ+gMjcP2gYlgfJoOpzytzzanNBQ9EG8wU8i2NCNq0FxRt0bqEhSRlnHVBSLwjtRiubXGOMMsaA9O50VAlIOIKVsBmGIUMi7KOlDVc1mTSbVHalhsVRpqY9gQwK2YDpBfBYWIxodVXLfX4DOW5CBqlhdPgPkEh59YO2hlYLdK2OWzGuZZ/UnaNDKQKIYBGwEpwohDEGkvJWPmRRDW6PSGKiKVWiturG/NroCdcASEBflkAoYUSEzj0j9nGkQhg/o4hTMpmYKZMBAAAA') format('woff2'), url('iconfont.woff?t=1555512025163') format('woff'), url('iconfont.ttf?t=1555512025163') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+    url('iconfont.svg?t=1555512025163#iconfont') format('svg');
+    /* iOS 4.1- */
+}
+
+.iconfont {
+    font-family: "iconfont" !important;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-bofan:before {
+    content: "\e731";
+    font-size: 34px;
+}

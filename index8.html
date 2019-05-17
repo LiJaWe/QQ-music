@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/main7.css">
+    <link rel="stylesheet" href="./css/main6.css">
+    <link rel="stylesheet" href="./css/iconfont10.css">
+    <link rel="stylesheet" href="./css/iconfont11.css">
+    <link rel="stylesheet" href="./css/iconfont4.css">
+    <link rel="stylesheet" href="./css/iconfont5.css">
+    <link rel="stylesheet" href="./css/iconfont6.css">
+    <link rel="stylesheet" href="./css/iconfont7.css">
+    <link rel="stylesheet" href="./css/iconfont8.css">
+    <link rel="stylesheet" href="./css/iconfont9.css">
+    <link rel="stylesheet" href="./css/iconfont12.css">
+    <link rel="stylesheet" href="./css/iconfont13.css">
+    <link rel="stylesheet" href="./css/iconfont14.css">
+    <script src="./js/jquery.js"></script>
+    <script src="./js/main1.js"></script>
+    <title>QQ音乐播放器</title>
+</head>
+
+<body>
+    <div class="body1"></div>
+    <div class="a">
+        <div class="head-nav">
+            <div class="QQmusic-logo">
+                <a href="https://y.qq.com/#stat=y_new.player.header.logo" title="QQmusic" target="_blank">
+                    <img src="./img/images/3.png" alt="QQ音乐">
+                </a>
+            </div>
+            <div class="QQaccount">
+                <div>
+                    <a href="" alt="小树苗" class="seed"><img src="./img/images/4.png"></a><a href="" class="set" id="set"><span>设置</span></a><a id="set1" class="out set" href="https://y.qq.com/#stat=y_new.player.header.logo">退出</a>
+                </div>
+            </div>
+        </div>
+        <div class="body-content">
+            <div class="content">
+                <div class="content1">
+                    <div class="content1-nav">
+                        <a href="javascript:;"><i class="iconfont icon-shoucang"></i><span>收藏</span></a>
+                        <a href="javascript:;"><i class="iconfont icon-tianjia"></i><span>添加到</span></a>
+                        <a href="javascript:;"><i class="iconfont icon-xiazai"></i><span>下载</span></a>
+                        <a id="shanchu" href="javascript:;"><i class="iconfont icon-shanchu"></i><span>删除</span></a>
+                        <a id="qingkong" href="javascript:;"><i class="iconfont icon-qingkong"></i><span>清空列表</span></a>
+                    </div>
+                    <div class="content2">
+                        <div class="content2-music">
+                            <ul class="sing-nav">
+                                <li class="song-checked">
+                                    <input type="checkbox" name="check songs" id="">
+                                </li>
+                                <li class="songs">歌曲</li>
+                                <li class="song singer">歌手</li>
+                                <li class="song time">时长</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="content4">
+                        <ul id="ul">
+                        </ul>
+                    </div>
+                </div>
+                <div class="content3">
+                    <div class="song-info">
+                        <a href="javascript:;">
+                            <img class="zhuanji" src="./img/images/5.png">
+                        </a>
+                        <div class="info11">
+                            <div class="info111">
+                                <p class="p1"></p>
+                                <p class="p1"></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="song-info1">
+                        <div class="info12">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="simple"></div>
+        <div class="music-player">
+            <div class="music">
+                <audio id="audio" paused='true' loop='true' src="javascript:;">
+                        <source type="audio/mp3">
+                    </audio>
+                <a href="javascript:;"><i class="iconfont icon-shangyishou"></i></a>
+                <a class="bofang" href="javascript:;"><i class="iconfont icon-bofang"></i></a>
+                <a href="javascript:;"><i class="iconfont icon-xiayishou"></i></a>
+                <div class="progress-bar">
+                    <div class="circle">
+                        <div id="circle1" class="circle1 circle"></div>
+                        <div id="progress" class="progress3 progress">
+                            <div class="progress2 progress"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="progress-right">
+                    <a class="a" href="javascript:;"><i class="iconfont icon icon-shuaxin"></i></a>
+                    <a class="a" href="javascript:;"><i class="iconfont icon icon-shoucang"></i></a>
+                    <a class="a" href="javascript:;"><i class="iconfont icon icon-xiazai "></i></a></div>
+                <a href="javascript:;" id="kaiguan1"><span class="chunjin">纯净</span><span id="span" class="OFF">OFF</span></a>
+                <div class="voice">
+                    <a id="volume" href="javascript:;">
+                        <i class="iconfont icon-volume_icon">
+                        </i>
+                    </a>
+                    <div class="circlee">
+                        <div id="circle3" class="circle1 circle2 circle3"></div>
+                        <div class="progress progress1">
+                            <div class="progress progress4"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
